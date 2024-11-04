@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: rgb(14, 13, 13);
+}
+
+
+.conteiner1 {
+   display: flex;
+   list-style-type: none;
+   padding: 5vh;
+   background: rgb(7, 7, 7);
+   justify-content: space-around;
+
+
+   & .titulo1{
+    color: white;
+    font-size: 2vh;
+   }
+
+   & .conteiner1 li{
+    display: inline;
+    margin-right: 20px;
+   }
+
+   & .navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 3.5vh;
+    margin: 1vh;
+   }
+
+   & .titulo1 :hover{
+    color: rgba(255, 0, 0, 0.5);
+   }
+
+   & .navbar  :hover{
+    color: rgba(255, 0, 0, 0.5);
+   }
+
+   
+
+   
+}
+
+.conteiner2{
+    margin: 1vh;
+    padding: 5vh;
+    display: flex;
+
+    & .Sinopse {
+        margin: 1vh;
+    }
+
+    
+}
+
+#Sinopse {
+    margin: 1vh;
+    font-size: 5vh;
+    color: white;
+
+    & .Sinopse :hover{
+        color: rgba(255, 0, 0, 0.5);
+    }
+}
+
+.conteiner3{
+    padding: 10vh;
+    display: flex;
+ 
+
+    & .titulo2{
+        color: white;
+        font-size: 4vh;
+    }
+
+    & .treiler{
+        margin-left: 4vh;
+    }
+
+    & .imagem2 img{
+        height: 50vh;
+        margin-left: 15vh;
+    }
+
+    
+}
+
+.conteiner4{
+
+    margin-left: 35vh;
+    
+
+    & .cards1{
+        display: flex;
+        margin: 5vh;
+    }
+
+    & .div1{
+        padding: 0.2vh;
+        background: rgb(236, 142, 142);
+        margin: 2vh;
+    }
+    & .div2{
+        padding: 0.5vh;
+        background: rgb(236, 142, 142);
+        margin: 2vh;
+    }
+    & .div3{
+        padding: 0.5vh;
+        background: rgb(236, 142, 142);
+        margin: 2vh;
+    }
+    & .div4{
+        padding: 0.5vh;
+        background: rgb(236, 142, 142);
+        margin: 2vh;
+    }
+    & .div5{
+        padding: 0.5vh;
+        background: rgb(236, 142, 142);
+        margin: 2vh;
+    }
+    & .div6{
+        padding: 0.5vh;
+        background: rgb(236, 142, 142);
+        margin: 2vh;
+    }
+    & .div7{
+        padding: 0.5vh;
+        background: rgb(236, 142, 142);
+        margin: 2vh;
+    }
+    & .div8{
+        padding: 0.5vh;
+        background: rgb(236, 142, 142);
+        margin: 2vh;
+    }
+
+
+    & .cards2{
+        display: flex;
+        margin: 5vh;
+    }
+
+    & .titulo3{
+        font-size: 2.5vh;
+        color: white;
+    }
+}
